@@ -79,6 +79,28 @@ html { scroll-behavior: smooth; }
     letter-spacing: 1px;
     color: #c9d2df;
 }
+.creator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 18px;
+    color: #f7faff;
+    font-size: .76rem;
+    font-weight: 700;
+    letter-spacing: .3px;
+    white-space: nowrap;
+}
+.creator-name { color: #ff6682; }
+.creator-icon {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,65,108,.12);
+    border: 1px solid rgba(255,65,108,.35);
+}
 
 .hero {
     position: relative;
@@ -451,6 +473,7 @@ st.markdown("""
 <span>HEART RISK</span>
 <span>AI ANALYSIS</span>
 <span>ABOUT</span>
+<div class="creator"><span class="creator-icon">👤</span><span>Created by <span class="creator-name">Gautam Karna</span></span></div>
 </div>
 </div>
 """, unsafe_allow_html=True)
