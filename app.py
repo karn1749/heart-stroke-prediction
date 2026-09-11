@@ -460,7 +460,17 @@ div.stButton > button:hover {
     .heart { font-size: 6rem; }
     .heart-orb { width: 210px; height: 210px; }
     .data-shell { padding: 25px 18px 30px; }
+    .navbar { flex-wrap: wrap; gap: 8px; }
     .nav-right { display: none; }
+    .creator {
+        margin-left: auto;
+        font-size: .68rem;
+    }
+    .creator-icon {
+        width: 24px;
+        height: 24px;
+        font-size: .75rem;
+    }
     .result-wrap { padding: 30px 18px; }
 }
 </style>
@@ -473,8 +483,8 @@ st.markdown("""
 <span>HEART RISK</span>
 <span>AI ANALYSIS</span>
 <span>ABOUT</span>
-<div class="creator"><span class="creator-icon">👤</span><span>Created by <span class="creator-name">Gautam Karna</span></span></div>
 </div>
+<div class="creator"><span class="creator-icon">👤</span><span>Created by <span class="creator-name">Gautam Karna</span></span></div>
 </div>
 """, unsafe_allow_html=True)
 
